@@ -1,3 +1,4 @@
+
 import os
 import csv
 
@@ -13,7 +14,6 @@ with open(file_path, "a", newline="") as file:
     if not file_exists:
         writer.writerow(["id", "name", "value"])
 
-    writer.writerow([2, "B", 200])
     writer.writerow([2, "B", 200])
     writer.writerow([3, "C", 300])
 
