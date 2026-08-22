@@ -16,5 +16,6 @@ with open(file_path, "a", newline="") as file:
 
     writer.writerow([2, "B", 200])
     writer.writerow([3, "C", 300])
+    writer.writerow([4, "D", 400])
 
 print("Data generated successfully.")
